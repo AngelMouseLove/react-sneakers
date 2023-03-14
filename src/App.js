@@ -23,135 +23,82 @@ function App() {
         </ul>
 
       </header>
+
       <div className="content p-40">
-        <h1 className="md-40">Все кроссовки</h1>
+        <div className="d-flex align-center justify-between md-40 ">
+          <h1 >Все кроссовки</h1>
 
 
-        <div className="d-flex">
 
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
+          <div className="search-block">
+            <img src="/img/search.svg" alt="Search"></img>
+            <input placeholder="Поиск..." />
           </div>
+        </div>
+      </div>
 
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/2.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
+
+      <div className="d-flex">
+        <div className="card">
+          <div className="favorite">
+            <img src="/img/heart-unlike.svg" alt="unliked"></img>
           </div>
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/3.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
+          <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers" />
+          <h5>Кроссовки женские Puma ‘Jada’ White</h5>
+          <div className="d-flex justify-between align-center" >
+            <div className="d-flex flex-column">
+              <span>Цена:</span>
+              <b>12 999 руб</b>
             </div>
+            <button className="button">
+              <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
+            </button>
           </div>
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/4.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
-          </div>
-          {/* 
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/5.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
-          </div>
-
-
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/6.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
-          </div>
-
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/7.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
-          </div>
-
-
-          <div className="card">
-            <img width={133} height={112} src="/img/sneakers/8.jpg" alt="Sneakers" />
-            <h5>Кроссовки женские Puma ‘Jada’ White</h5>
-            <div className="d-flex justify-between align-center" >
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <b>12 999 руб</b>
-              </div>
-              <button className="button">
-                <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
-              </button>
-            </div>
-          </div> */}
-
-
-
         </div>
 
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/2.jpg" alt="Sneakers" />
+          <h5>Кроссовки женские Puma ‘Jada’ White</h5>
+          <div className="d-flex justify-between align-center" >
+            <div className="d-flex flex-column">
+              <span>Цена:</span>
+              <b>12 999 руб</b>
+            </div>
+            <button className="button">
+              <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
+            </button>
+          </div>
+        </div>
+
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/3.jpg" alt="Sneakers" />
+          <h5>Кроссовки женские Puma ‘Jada’ White</h5>
+          <div className="d-flex justify-between align-center" >
+            <div className="d-flex flex-column">
+              <span>Цена:</span>
+              <b>12 999 руб</b>
+            </div>
+            <button className="button">
+              <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
+            </button>
+          </div>
+        </div>
+
+        <div className="card">
+          <img width={133} height={112} src="/img/sneakers/4.jpg" alt="Sneakers" />
+          <h5>Кроссовки женские Puma ‘Jada’ White</h5>
+          <div className="d-flex justify-between align-center" >
+            <div className="d-flex flex-column">
+              <span>Цена:</span>
+              <b>12 999 руб</b>
+            </div>
+            <button className="button">
+              <img width={11} height={11} src="/img/1540157_plus_add_create_cross_new_icon.png" alt="Plus" />
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </div >
   );
 }
 
